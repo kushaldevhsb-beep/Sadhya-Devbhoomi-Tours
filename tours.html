@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uttarakhand Tour Packages & Itineraries | Sadhya Devbhoomi Tours</title>
+  <meta name="description" content="Browse curated Himalayan tour packages: Nainital lake escapes, Kainchi Dham pilgrimages, Munsiyari Panchachuli expeditions, Adi Kailash yatra, and complete Char Dham circuits.">
+  <link rel="canonical" href="https://tour.sadhyawellness.com/tours.html">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-stone-50 text-slate-900">
+
+  <!-- Header -->
+  <header class="glass-header text-stone-100 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-amber-700 to-amber-500 flex items-center justify-center font-serif font-bold text-white text-lg">सा</div>
+        <div>
+          <span class="font-hindi text-amber-200 text-sm block">साध्य देवभूमि टूर्स</span>
+          <span class="font-brand text-xs text-white block">Sadhya Devbhoomi Tours</span>
+        </div>
+      </a>
+      <nav class="hidden lg:flex items-center space-x-6 text-sm font-medium">
+        <a href="index.html" class="text-stone-300 hover:text-amber-300">Home</a>
+        <a href="destinations.html" class="text-stone-300 hover:text-amber-300">Destinations</a>
+        <a href="tours.html" class="text-amber-400 font-semibold">All Tours</a>
+        <a href="nainital.html" class="text-stone-300 hover:text-amber-300">Nainital</a>
+        <a href="pithoragarh.html" class="text-stone-300 hover:text-amber-300">Pithoragarh</a>
+        <a href="char-dham.html" class="text-stone-300 hover:text-amber-300">Char Dham</a>
+        <a href="custom-trip.html" class="text-stone-300 hover:text-amber-300">Custom Trip</a>
+        <a href="contact.html" class="text-stone-300 hover:text-amber-300">Contact</a>
+      </nav>
+      <a href="custom-trip.html" class="btn-primary text-xs py-2 px-5 hidden sm:inline-flex">Plan My Trip</a>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <div class="bg-slate-950 text-stone-100 py-16 px-4 text-center relative">
+    <div class="max-w-4xl mx-auto space-y-3 relative z-10">
+      <span class="text-xs font-bold uppercase tracking-widest text-amber-400 font-mono">Bespoke Himalayan Journeys</span>
+      <h1 class="text-4xl sm:text-6xl font-serif font-bold text-white">Curated Uttarakhand Tours</h1>
+      <p class="text-stone-300 text-sm sm:text-base max-w-2xl mx-auto">
+        Designed with unhurried pacing, private chauffeured hill vehicles, handpicked scenic accommodations, and authentic local guides.
+      </p>
+    </div>
+  </div>
+
+  <!-- Filter Controls -->
+  <section class="py-6 bg-white border-b border-stone-200 sticky top-20 z-40 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 items-center">
+        <div>
+          <select id="tour-region-filter" class="w-full text-xs p-3 rounded-xl border border-stone-300 outline-none bg-white font-medium">
+            <option value="all">All Regions (Complete Uttarakhand)</option>
+            <option value="Nainital">★ Nainital District Flagship</option>
+            <option value="Pithoragarh">★ Pithoragarh High Himalayas Flagship</option>
+            <option value="Garhwal">Garhwal & Char Dham</option>
+            <option value="Kumaon">Kumaon Cultural Heritage</option>
+          </select>
+        </div>
+        <div>
+          <select id="tour-duration-filter" class="w-full text-xs p-3 rounded-xl border border-stone-300 outline-none bg-white font-medium">
+            <option value="all">All Durations</option>
+            <option value="1">1 Day Tours</option>
+            <option value="2-3">2–3 Days (Weekend Escapes)</option>
+            <option value="4-5">4–5 Days</option>
+            <option value="6-8">6–8 Days</option>
+            <option value="9+">9+ Days (Char Dham & High Valleys)</option>
+          </select>
+        </div>
+        <div>
+          <select id="tour-theme-filter" class="w-full text-xs p-3 rounded-xl border border-stone-300 outline-none bg-white font-medium">
+            <option value="all">All Themes</option>
+            <option value="Pilgrimage">Pilgrimage & Sacred Ashrams</option>
+            <option value="High Himalayas">High Himalayas & Panoramas</option>
+            <option value="Escapes">Himalayan Escapes & Leisure</option>
+            <option value="Adventure">Adventure & High Treks</option>
+            <option value="Culture">Culture & Heritage</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tours Grid -->
+  <main class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div id="tours-catalog-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="col-span-3 text-center py-12 text-slate-500">Loading tour itineraries...</div>
+    </div>
+  </main>
+
+  <!-- Reusable Detail Modal -->
+  <div id="detail-modal" class="modal-overlay">
+    <div class="modal-container p-6 sm:p-8">
+      <div class="flex justify-between items-center border-b border-stone-200 pb-4 mb-6">
+        <h3 id="modal-title" class="font-serif text-2xl font-bold text-slate-900">Itinerary Details</h3>
+        <button id="modal-close-btn" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center font-bold text-lg">✕</button>
+      </div>
+      <div id="modal-body-content"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-slate-950 text-stone-400 text-xs py-12 border-t border-slate-800 text-center">
+    <div class="max-w-4xl mx-auto px-4 space-y-2">
+      <p class="font-hindi text-amber-200 text-sm">साध्य देवभूमि टूर्स • Sadhya Devbhoomi Tours</p>
+      <p>143 Subhash Nagar, Sila Road, CIMAP Gate Bindukhatta, Lalkuan, Nainital, Uttarakhand 262402</p>
+      <p>Direct Calls: <a href="tel:+919756805476" class="text-amber-300">+91 97568 05476</a> • Email: <a href="mailto:info@sadhyawellness.com" class="text-amber-300">info@sadhyawellness.com</a></p>
+    </div>
+  </footer>
+
+  <!-- Sticky Mobile Bar -->
+  <div class="sticky-mobile-bar">
+    <a href="tel:+919756805476" class="flex-1 text-center py-2 text-stone-200 flex flex-col items-center">
+      <span class="text-lg">📞</span><span class="text-[11px] font-bold">CALL</span>
+    </a>
+    <button onclick="App.openWhatsApp()" class="flex-1 text-center py-2 text-emerald-400 flex flex-col items-center">
+      <span class="text-lg">💬</span><span class="text-[11px] font-bold">WHATSAPP</span>
+    </button>
+    <a href="custom-trip.html" class="flex-1 text-center py-2 text-amber-300 flex flex-col items-center">
+      <span class="text-lg">🧭</span><span class="text-[11px] font-bold">PLAN TRIP</span>
+    </a>
+  </div>
+
+  <script src="assets/js/data-loader.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      const grid = document.getElementById('tours-catalog-grid');
+      const regionFilter = document.getElementById('tour-region-filter');
+      const durationFilter = document.getElementById('tour-duration-filter');
+      const themeFilter = document.getElementById('tour-theme-filter');
+
+      const tours = await DataLoader.getTours();
+      if (!tours) return;
+
+      function render(items) {
+        if (items.length === 0) {
+          grid.innerHTML = `<div class="col-span-3 text-center py-12 text-slate-500 italic">No tour packages match the selected criteria. Contact us to create a customized itinerary.</div>`;
+          return;
+        }
+
+        grid.innerHTML = items.map(t => `
+          <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-stone-200 flex flex-col justify-between hover:shadow-md transition-shadow">
+            <div>
+              <div class="relative h-56 overflow-hidden">
+                <img src="${t.heroImage}" alt="${t.title}" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                <span class="absolute top-3 left-3 bg-slate-950/85 text-amber-300 text-[10px] font-bold px-2.5 py-1 rounded uppercase tracking-wider">${t.region} • ${t.tier === 1 ? '★ Flagship' : 'Circuit'}</span>
+                <span class="absolute bottom-3 right-3 bg-emerald-950/90 text-white text-[11px] font-semibold px-2.5 py-1 rounded">${t.duration}</span>
+              </div>
+              <div class="p-6">
+                <h3 class="font-serif text-2xl font-bold text-slate-900">${t.title}</h3>
+                <div class="flex items-center gap-2 mt-1">
+                  <span class="text-xs text-amber-800 font-semibold">${t.theme}</span>
+                  <span class="text-stone-300">•</span>
+                  <span class="text-xs text-slate-500">${t.difficulty}</span>
+                </div>
+                
+                <ul class="mt-4 space-y-1.5 text-xs text-slate-600 border-t border-stone-100 pt-3">
+                  ${t.highlights.slice(0, 3).map(h => `<li class="flex items-start gap-1.5"><span class="text-amber-700 font-bold">✓</span> <span>${h}</span></li>`).join('')}
+                </ul>
+
+                <div class="mt-4 pt-3 border-t border-stone-100 flex justify-between items-center text-xs text-slate-500">
+                  <span>Start: <strong>${t.startingPoint}</strong></span>
+                  <span>Max Alt: <strong>${t.altitudeMax}</strong></span>
+                </div>
+              </div>
+            </div>
+            <div class="p-6 pt-0 flex gap-2">
+              <button onclick="App.showTourDetail('${t.id}')" class="btn-secondary bg-slate-100 hover:bg-slate-200 text-slate-900 text-xs py-2.5 px-4 flex-1 text-center justify-center">
+                Day-Wise Plan
+              </button>
+              <button onclick="App.openTourWhatsApp('${t.title}')" class="btn-whatsapp text-xs py-2.5 px-3 flex-1 text-center justify-center">
+                Inquire (WhatsApp)
+              </button>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      function applyFilters() {
+        const reg = regionFilter.value;
+        const dur = durationFilter.value;
+        const thm = themeFilter.value;
+
+        const filtered = tours.filter(t => {
+          const matchReg = reg === 'all' || t.region.toLowerCase().includes(reg.toLowerCase());
+          
+          let matchDur = true;
+          if (dur === '1') matchDur = t.durationDays === 1;
+          else if (dur === '2-3') matchDur = t.durationDays >= 2 && t.durationDays <= 3;
+          else if (dur === '4-5') matchDur = t.durationDays >= 4 && t.durationDays <= 5;
+          else if (dur === '6-8') matchDur = t.durationDays >= 6 && t.durationDays <= 8;
+          else if (dur === '9+') matchDur = t.durationDays >= 9;
+
+          const matchThm = thm === 'all' || t.theme.toLowerCase().includes(thm.toLowerCase());
+
+          return matchReg && matchDur && matchThm;
+        });
+
+        render(filtered);
+      }
+
+      regionFilter.addEventListener('change', applyFilters);
+      durationFilter.addEventListener('change', applyFilters);
+      themeFilter.addEventListener('change', applyFilters);
+
+      const urlParams = new URLSearchParams(window.location.search);
+      const regParam = urlParams.get('region');
+      if (regParam) {
+        regionFilter.value = regParam;
+      }
+      applyFilters();
+    });
+  </script>
+</body>
+</html>

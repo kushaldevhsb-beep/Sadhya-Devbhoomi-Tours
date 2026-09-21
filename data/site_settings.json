@@ -1,0 +1,53 @@
+{
+  "brand": {
+    "hindi": "साध्य देवभूमि टूर्स",
+    "english": "Sadhya Devbhoomi Tours",
+    "tagline": "Journeys Through the Sacred Himalayas",
+    "supportingTagline": "Explore Uttarakhand — Sacred Journeys, Himalayan Landscapes & Authentic Experiences",
+    "domain": "tour.sadhyawellness.com",
+    "url": "https://tour.sadhyawellness.com",
+    "parentBrand": {
+      "name": "Sadhya Wellness",
+      "hindiName": "साध्य वेलनेस",
+      "url": "https://sadhyawellness.com",
+      "tagline": "Holistic Healing, Yoga Retreats & Himalayan Living"
+    },
+    "bengaluruVertical": {
+      "name": "Sadhya Bengaluru Home Classes",
+      "hindiName": "साध्य बेंगलुरु होम क्लासेज",
+      "url": "https://bengaluru.sadhyawellness.com",
+      "tagline": "Personalized Yoga & Wellness at Your Doorstep"
+    }
+  },
+  "contact": {
+    "phone": "9756805476",
+    "phoneFormatted": "+91 97568 05476",
+    "email": "info@sadhyawellness.com",
+    "secondaryEmail": "hariom.hsb@gmail.com",
+    "whatsappNumber": "919756805476",
+    "whatsappDefaultMessage": "Hello, I would like to plan a Uttarakhand trip with Sadhya Devbhoomi Tours. Please help me create an itinerary.",
+    "address": {
+      "brandLine": "Sadhya Devbhoomi Tours",
+      "floorLine": "Beside / First Floor, Sadhya Wellness",
+      "street": "143 Subhash Nagar, Sila Road, CIMAP Gate Bindukhatta",
+      "locality": "Lalkuan, Nainital",
+      "state": "Uttarakhand",
+      "pincode": "262402",
+      "country": "India",
+      "full": "Sadhya Devbhoomi Tours, Beside / First Floor, Sadhya Wellness, 143 Subhash Nagar, Sila Road, CIMAP Gate Bindukhatta, Lalkuan, Nainital, Uttarakhand 262402, India",
+      "googleMapsEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111532.74868478496!2d79.4447477972656!3d29.083333300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a084fb41b7145b%3A0x6b4459f131109968!2sLalkuan%2C%20Uttarakhand%20262402!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin",
+      "googleMapsDirections": "https://maps.google.com/?q=143+Subhash+Nagar+sila+road+CIMAP+Gate+Bindukhatta+Lalkuan+Nainital+Uttarakhand+262402"
+    }
+  },
+  "social": {
+    "youtube": "https://www.youtube.com/@sadhyawellness",
+    "instagram": "https://www.instagram.com/sadhya_wellness",
+    "facebook": "https://www.facebook.com/sadhyawellness",
+    "linkedin": "https://www.linkedin.com/company/sadhya-wellness"
+  },
+  "regionsHierarchy": {
+    "tier1": ["Nainital District", "Pithoragarh District"],
+    "tier2": ["Almora", "Bageshwar", "Champawat", "Udham Singh Nagar"],
+    "tier3": ["Chamoli", "Rudraprayag", "Uttarkashi", "Tehri Garhwal", "Pauri Garhwal", "Dehradun", "Haridwar"]
+  }
+}

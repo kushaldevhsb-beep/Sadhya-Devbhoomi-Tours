@@ -1,0 +1,802 @@
+[
+  {
+    "id": "nainital-day-tour",
+    "title": "Nainital Lake & Heritage Day Tour",
+    "slug": "nainital-day-tour",
+    "region": "Nainital",
+    "district": "nainital",
+    "tier": 1,
+    "duration": "1 Day",
+    "durationDays": 1,
+    "theme": "Sightseeing & Heritage",
+    "startingPoint": "Kathgodam / Nainital Hotel",
+    "endingPoint": "Nainital / Kathgodam",
+    "bestSeason": "Throughout the year",
+    "altitudeMax": "2,292 m (Tiffin Top)",
+    "difficulty": "Easy",
+    "heroImage": "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?q=80&w=1200&auto=format&fit=crop",
+    "priceStarting": "Contact for Best Custom Quote",
+    "highlights": [
+      "Traditional yacht or wooden boat ride across serene Naini Lake",
+      "Darshan at the sacred Maa Naina Devi Shakti Peeth",
+      "Panoramic Himalayan viewpoints at Snow View and Tiffin Top",
+      "Historic stroll along British-era Mall Road and Tibetan Bazaar",
+      "Fascinating interconnected rock chambers of Eco Cave Gardens"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Full Day Exploration of Nainital",
+        "description": "Morning pickup from your hotel or Kathgodam station. Begin with a scenic walk along Thandi Sadak to Maa Naina Devi Temple. Enjoy a peaceful wooden gondola boat ride on Naini Lake. Ascend by aerial ropeway or private cab to Snow View Point for vistas of the snow-capped Trishul and Nanda Devi peaks. Post lunch, visit Eco Cave Gardens and view Dorothy's Seat at Tiffin Top. Evening free to stroll along Mall Road and pick up handmade candles and pine crafts. Drop-off by 7:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Private sanitized chauffeur-driven vehicle for the full day",
+      "Pick up and drop from Nainital hotel or Kathgodam railway station",
+      "Parking charges, toll taxes, and driver allowance",
+      "Naini Lake 30-minute boating experience voucher"
+    ],
+    "exclusions": [
+      "Monument and Eco Cave entry tickets",
+      "Ropeway cable car tickets",
+      "Meals and personal expenses",
+      "GST (5%)"
+    ],
+    "importantNotes": "Comfortable walking shoes are recommended for exploring Mall Road and temple steps.",
+    "faq": [
+      {
+        "question": "Can this tour be customized for senior citizens?",
+        "answer": "Yes! We can arrange vehicle drop-offs as close as permissible to temples and lake points, avoiding steep climbs."
+      }
+    ]
+  },
+  {
+    "id": "kainchi-dham-day-tour",
+    "title": "Kainchi Dham & Sacred Valley Day Pilgrimage",
+    "slug": "kainchi-dham-day-tour",
+    "region": "Nainital",
+    "district": "nainital",
+    "tier": 1,
+    "duration": "1 Day",
+    "durationDays": 1,
+    "theme": "Pilgrimage & Spiritual Retreat",
+    "startingPoint": "Kathgodam / Haldwani / Nainital",
+    "endingPoint": "Kathgodam / Haldwani / Nainital",
+    "bestSeason": "Throughout the year",
+    "altitudeMax": "1,800 m (Ghorakhal)",
+    "difficulty": "Easy",
+    "heroImage": "https://images.unsplash.com/photo-1609766857041-ed402ea8069a?q=80&w=1200&auto=format&fit=crop",
+    "priceStarting": "Bespoke Spiritual Itinerary",
+    "highlights": [
+      "Deep meditative darshan at Neem Karoli Baba Ashram Kainchi Dham",
+      "Attend the serene temple Aarti and receive sacred prasad",
+      "Visit the Temple of Justice at Ghorakhal Golu Devta adorned with thousands of bells",
+      "Scenic drive through Bhowali fruit orchards and Shyamkhet tea gardens",
+      "Private, unhurried pilgrimage pace designed for contemplation"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Kainchi Dham, Bhowali & Ghorakhal Spiritual Day",
+        "description": "Depart at 8:30 AM. Scenic drive up the Kumaon hills along the Kshipra river to Kainchi Dham Ashram. Spend 2 to 3 unhurried hours inside the sanctum meditating, walking by the river, and offering prayers at Baba's Samadhi Mandir and Hanuman temple. Proceed to Bhowali for lunch and sample fresh mountain fruits. Afternoon visit to Ghorakhal Golu Devta Temple to witness the bell-tying traditions, followed by a walk through Shyamkhet Tea Estate. Return drop by 6:00 PM."
+      }
+    ],
+    "inclusions": [
+      "Dedicated air-conditioned private cab with experienced hill driver",
+      "Pick up and return drop to hotel or Kathgodam station",
+      "Driver allowances, state hill permits, and parking fees"
+    ],
+    "exclusions": [
+      "Temple donations and pooja materials",
+      "Lunch and personal snacks",
+      "Anything not mentioned in inclusions"
+    ],
+    "importantNotes": "Please wear modest traditional attire. Cell phones must be kept switched off or on silent inside the ashram.",
+    "faq": [
+      {
+        "question": "Are wheelchairs allowed at Kainchi Dham?",
+        "answer": "The main ashram courtyard is accessible via ramps, and our drivers assist guests right up to the bridge entrance."
+      }
+    ]
+  },
+  {
+    "id": "nainital-3d-2n-classic",
+    "title": "Classic Nainital, Lakes & Kainchi Dham (3D/2N)",
+    "slug": "nainital-3d-2n-classic",
+    "region": "Nainital",
+    "district": "nainital",
+    "tier": 1,
+    "duration": "3 Days / 2 Nights",
+    "durationDays": 3,
+    "theme": "Family & Scenic Leisure",
+    "startingPoint": "Kathgodam",
+    "endingPoint": "Kathgodam",
+    "bestSeason": "All year round",
+    "altitudeMax": "2,286 m (Mukteshwar / Nainital ridges)",
+    "difficulty": "Easy",
+    "heroImage": "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?q=80&w=1200&auto=format&fit=crop",
+    "priceStarting": "Customized to Hotel Category",
+    "highlights": [
+      "2 nights comfortable stay in a boutique hillside Nainital property",
+      "Boating on Naini Lake, Naina Devi Temple, and Mall Road evening stroll",
+      "Half-day excursion to Kainchi Dham Neem Karoli Baba Ashram",
+      "Exploration of the scenic Lake District: Bhimtal, Sattal, and Naukuchiatal",
+      "Sunrise Himalayan panorama from Snow View Point"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival at Kathgodam & Welcome to Nainital",
+        "description": "Meet our representative at Kathgodam railway station or Pantnagar airport. Drive up the winding pine hills to Nainital (35 km). Check in to your hotel and refresh. In the afternoon, enjoy a boat ride on Naini Lake and visit Maa Naina Devi Temple. Walk along Mall Road, visit the local candle market, and savor hot Kumaoni delicacies."
+      },
+      {
+        "day": 2,
+        "title": "Kainchi Dham Darshan & The Kumaon Lake District",
+        "description": "After breakfast, proceed to Kainchi Dham for darshan and peaceful meditation at Baba Neem Karoli Maharaj's ashram. Continue to the emerald Lake District: Bhimtal with its island aquarium, Sattal surrounded by dense oak woods, and Naukuchiatal's tranquil nine-cornered waters. Return to Nainital by evening."
+      },
+      {
+        "day": 3,
+        "title": "Viewpoints & Departure",
+        "description": "Morning visit to Snow View Point and Eco Cave Gardens. Check out and descend towards Kathgodam, stopping briefly at Woodland Waterfall or Hanuman Garhi for valley views. Drop-off at Kathgodam Railway Station for your onward journey."
+      }
+    ],
+    "inclusions": [
+      "2 nights accommodation on double/twin sharing basis",
+      "Daily breakfast at the hotel",
+      "Exclusive private AC cab (heating in winter) for all transfers and sightseeing",
+      "Tolls, parking, and driver allowances"
+    ],
+    "exclusions": [
+      "Train/Flight tickets to Kathgodam",
+      "Entry tickets, boating fees, and ropeway charges",
+      "Lunches, dinners, and personal expenses"
+    ],
+    "importantNotes": "Ideal weekend getaway from Delhi NCR (accessible via Ranikhet Express / Shatabdi Express to Kathgodam).",
+    "faq": []
+  },
+  {
+    "id": "nainital-mukteshwar-pangot-4d",
+    "title": "Nainital, Mukteshwar & Pangot Himalayan Escape (4D/3N)",
+    "slug": "nainital-mukteshwar-pangot-4d",
+    "region": "Nainital",
+    "district": "nainital",
+    "tier": 1,
+    "duration": "4 Days / 3 Nights",
+    "durationDays": 4,
+    "theme": "Himalayan Escapes & Nature",
+    "startingPoint": "Kathgodam",
+    "endingPoint": "Kathgodam",
+    "bestSeason": "March–June & October–February",
+    "altitudeMax": "2,286 m (Mukteshwar)",
+    "difficulty": "Easy to Moderate",
+    "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop",
+    "priceStarting": "Curated Boutique Experience",
+    "highlights": [
+      "Stay in a secluded orchard resort in Mukteshwar overlooking Nanda Devi",
+      "Stand on Chauli Ki Jali cliffs and visit the 350-year-old Shiva shrine",
+      "Explore the virgin birding forests of Pangot and Kilbury sanctuary",
+      "Visit Bhalugaad waterfall and pristine fruit orchards of Sitla",
+      "Experience both lively Nainital and tranquil mountain quietude"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Kathgodam to Nainital & Pangot Birds Sanctuary",
+        "description": "Pickup from Kathgodam and drive to Nainital. Ascend into the peaceful oak forests of Pangot and Kilbury. Spot Himalayan whistling thrushes and pheasants on a gentle forest nature trail. Evening at leisure at your forest resort."
+      },
+      {
+        "day": 2,
+        "title": "Nainital Sightseeing & Drive to Mukteshwar",
+        "description": "Morning lake boating and Naina Devi temple darshan in Nainital. Post lunch, take the picturesque mountain road through Bhowali and Ramgarh fruit bowl to Mukteshwar. Check in to a cliff-view boutique lodge. Sunset alpenglow on Nanda Devi and Trishul."
+      },
+      {
+        "day": 3,
+        "title": "Mukteshwar Wonders & Bhalugaad Waterfall",
+        "description": "Wake up to a golden sunrise over the Greater Himalayas. Visit the ancient Mukteshwar Mahadev Dham and Chauli Ki Jali rock formation. Trek down the pine trail to the hidden turquoise pool of Bhalugaad Waterfall. Evening tea in an apple and peach orchard."
+      },
+      {
+        "day": 4,
+        "title": "Kainchi Dham & Return to Kathgodam",
+        "description": "Depart Mukteshwar and drive via the Kainchi Dham ashram for morning darshan and meditation. Continue down to Kathgodam railway station for departure."
+      }
+    ],
+    "inclusions": [
+      "3 nights boutique resort accommodation",
+      "Daily breakfast and dinner",
+      "Private dedicated cab for the entire itinerary",
+      "Guided forest and orchard walks"
+    ],
+    "exclusions": [
+      "Travel insurance and train/flight tickets",
+      "Adventure activity charges at Chauli Ki Jali",
+      "GST (5%)"
+    ],
+    "importantNotes": "Carry warm clothes even in summer as Mukteshwar and Pangot evenings turn crisp and cool.",
+    "faq": []
+  },
+  {
+    "id": "munsiyari-panchachuli-escape-5d",
+    "title": "Munsiyari & Panchachuli High Himalayan Escape (5D/4N)",
+    "slug": "munsiyari-panchachuli-escape-5d",
+    "region": "Pithoragarh",
+    "district": "pithoragarh",
+    "tier": 1,
+    "duration": "5 Days / 4 Nights",
+    "durationDays": 5,
+    "theme": "Flagship High Himalayas",
+    "startingPoint": "Kathgodam",
+    "endingPoint": "Kathgodam",
+    "bestSeason": "April to June & September to November",
+    "altitudeMax": "3,500 m (Khaliya Top)",
+    "difficulty": "Moderate",
+    "heroImage": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1200&auto=format&fit=crop",
+    "priceStarting": "Signature Expedition",
+    "highlights": [
+      "Front-row views of the iconic 5 snow-clad Panchachuli peaks (6,904 m)",
+      "Day trek to Khaliya Top alpine bugyal for a 360-degree Himalayan panorama",
+      "Visit the 126m roaring Birthi Waterfall tumbling through pine ravines",
+      "Immerse in the indigenous Shauka tribal culture and handwoven woollen art",
+      "Stay in scenic Chaukori tea gardens with views of Nanda Devi"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Kathgodam to Chaukori via Almora",
+        "description": "Early morning start from Kathgodam. Drive through Almora and Bageshwar along the Saryu river into Chaukori (180 km / 7 hrs). Settle into your tea garden lodge and watch the sunset blaze across Trishul and Nanda Devi peaks."
+      },
+      {
+        "day": 2,
+        "title": "Chaukori to Munsiyari via Birthi Falls",
+        "description": "After a mesmerizing sunrise in Chaukori, drive towards Thal and ascend the Kalamuni Pass (2,700m). Stop at Birthi Waterfall for tea and photography. Arrive in Munsiyari by afternoon and come face-to-face with the towering Panchachuli massif."
+      },
+      {
+        "day": 3,
+        "title": "Khaliya Top Trek & Shauka Cultural Heritage",
+        "description": "Trek up through rhododendron and oak forests to Khaliya Top (6 km round trip), reaching an alpine meadow with vistas of the Greater Himalayas. In the afternoon, visit the Tribal Heritage Museum curated by Master Sher Singh and the Darkot handloom village."
+      },
+      {
+        "day": 4,
+        "title": "Munsiyari to Kausani / Almora",
+        "description": "Witness the pink and golden sunrise on Panchachuli. Begin return journey via Baijnath temple complex (built in the 12th century on the Gomti river) and drive to Kausani or Kasar Devi."
+      },
+      {
+        "day": 5,
+        "title": "Return to Kathgodam via Kainchi Dham",
+        "description": "Drive down through the pine-scented valleys of Kumaon. Stop for darshan at Kainchi Dham Neem Karoli Baba Ashram before concluding the tour at Kathgodam Railway Station."
+      }
+    ],
+    "inclusions": [
+      "4 nights accommodation in handpicked scenic mountain lodges",
+      "Daily breakfast and dinner",
+      "Private hill-rated SUV (Innova/Scorpio/Bolero) with seasoned high-altitude driver",
+      "Guided walk to Birthi Falls and Tribal Heritage Museum visit"
+    ],
+    "exclusions": [
+      "Personal trekking gear and porter charges",
+      "Emergency medical expenses or unscheduled stays due to roadblocks",
+      "Tips and personal expenses"
+    ],
+    "importantNotes": "This is a signature tour of Sadhya Devbhoomi Tours showcasing our deep ground expertise in Pithoragarh district.",
+    "faq": [
+      {
+        "question": "Is an Inner Line Permit needed for Munsiyari?",
+        "answer": "No permit is needed to visit Munsiyari town, Khaliya Top, or Birthi Falls. Permits are only required for high treks beyond into the border valley."
+      }
+    ]
+  },
+  {
+    "id": "adi-kailash-om-parvat-8d",
+    "title": "Sacred Adi Kailash & Om Parvat Yatra (8D/7N)",
+    "slug": "adi-kailash-om-parvat-8d",
+    "region": "Pithoragarh",
+    "district": "pithoragarh",
+    "tier": 1,
+    "duration": "8 Days / 7 Nights",
+    "durationDays": 8,
+    "theme": "High Altitude Sacred Pilgrimage",
+    "startingPoint": "Kathgodam",
+    "endingPoint": "Kathgodam",
+    "bestSeason": "May to June & September to October",
+    "altitudeMax": "4,497 m (Parvati Kund & Jolingkong)",
+    "difficulty": "Challenging (High Altitude)",
+    "heroImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop",
+    "priceStarting": "All-Inclusive Yatra Package",
+    "highlights": [
+      "Darshan of the divine snow-etched natural ॐ symbol on Om Parvat (5,590 m)",
+      "Holy circumambulation and puja at Parvati Kund beneath majestic Adi Kailash",
+      "Inner Line Permit facilitation and dedicated high-clearance 4x4 mountain vehicles",
+      "Cultural homestays in remote heritage Rung tribal villages: Nabi, Gunji, and Kuti",
+      "Visit Vyas Gufa where Sage Ved Vyas composed the Mahabharata",
+      "Comprehensive medical briefing, oxygen backup, and gradual acclimatization"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Kathgodam to Pithoragarh (210 km / 7 hrs)",
+        "description": "Pickup from Kathgodam and drive through the Kumaon valleys to Pithoragarh town. Evening orientation and verification of identity documents for Inner Line Permits."
+      },
+      {
+        "day": 2,
+        "title": "Pithoragarh to Dharchula (95 km / 4 hrs)",
+        "description": "Drive alongside the roaring Kali River separating India and Nepal. Arrive in Dharchula. Complete medical fitness tests and biometric permit formalities at the SDM office."
+      },
+      {
+        "day": 3,
+        "title": "Dharchula to Gunji / Nabi Village (85 km / 5 hrs)",
+        "description": "Board high-ground-clearance 4x4 mountain vehicles. Traverse the newly built BRO road through Tawaghat, Lakhanpur, and Chialekh. Cross the breathtaking alpine gateway into the Byans Valley. Check in to traditional wooden homestays in Nabi or Gunji (3,200m)."
+      },
+      {
+        "day": 4,
+        "title": "Om Parvat Darshan & Nabhidang",
+        "description": "Early morning drive through Kalapani (source of the Kali River) to Nabhidang. Behold the awe-inspiring natural snow-carved 'OM' (ॐ) symbol on Om Parvat. Visit the Kali Mata temple and return to Nabi for evening cultural folk interaction."
+      },
+      {
+        "day": 5,
+        "title": "Adi Kailash Darshan, Parvati Kund & Jolingkong",
+        "description": "Drive through Kuti village (named after Queen Kunti) to the sacred alpine amphitheatre of Jolingkong (4,300m). Perform holy prayers and pooja at Parvati Kund, with the reflection of Adi Kailash shimmering in its crystal-clear water. Return to Nabi."
+      },
+      {
+        "day": 6,
+        "title": "Nabi to Dharchula via Narayan Ashram",
+        "description": "Descend back along the Kali valley. Detour to visit the serene Narayan Ashram, founded in 1936 by Narayan Swami amidst dense deodar forests. Arrive in Dharchula for overnight stay."
+      },
+      {
+        "day": 7,
+        "title": "Dharchula to Chaukori / Patal Bhuvaneshwar",
+        "description": "Drive from Dharchula to Chaukori or Gangolihat. Explore the mystical subterranean limestone chambers of Patal Bhuvaneshwar cave temple. Overnight in Chaukori."
+      },
+      {
+        "day": 8,
+        "title": "Chaukori to Kathgodam & Departure",
+        "description": "Drive down via Bageshwar, Almora, and Kainchi Dham. Drop-off at Kathgodam railway station by evening with lifelong sacred memories."
+      }
+    ],
+    "inclusions": [
+      "All accommodations in hotels, homestays, and alpine guesthouses",
+      "Pure vegetarian nutritious meals (Breakfast, Lunch, and Dinner)",
+      "Inner Line Permit (ILP) documentation and administrative assistance",
+      "Special 4x4 mountain vehicles (Maxx/Bolero Camper) for border road sector",
+      "Dedicated local tour manager and oxygen cylinder for emergency backup",
+      "Medical check-up facilitation at Dharchula"
+    ],
+    "exclusions": [
+      "Pony or horse charges if opted locally",
+      "Personal medication, travel insurance, and medical evacuation insurance",
+      "Expenses caused by factors beyond control (landslides, roadblock delays, VIP convoys)"
+    ],
+    "importantNotes": "Mandatory Requirements: Indian nationality, valid government ID (Aadhaar/Passport), physical fitness certificate from an authorized physician, and police verification. Acclimatization rules must be followed strictly.",
+    "faq": [
+      {
+        "question": "Can senior citizens participate in the Adi Kailash Yatra?",
+        "answer": "Yes, with the opening of the motorable road up to Jolingkong and Nabhidang, high trekking is minimal. However, a strict medical fitness certificate and normal blood pressure/ECG are mandatory."
+      }
+    ]
+  },
+  {
+    "id": "char-dham-yatra-complete-10d",
+    "title": "Complete Sacred Char Dham Yatra (10D/9N)",
+    "slug": "char-dham-yatra-complete-10d",
+    "region": "Garhwal",
+    "district": "chamoli",
+    "tier": 3,
+    "duration": "10 Days / 9 Nights",
+    "durationDays": 10,
+    "theme": "Sacred Pilgrimage & Moksha Puri",
+    "startingPoint": "Haridwar / Rishikesh",
+    "endingPoint": "Haridwar / Rishikesh",
+    "bestSeason": "May to June & September to November",
+    "altitudeMax": "3,583 m (Kedarnath Dham)",
+    "difficulty": "Moderate to Strenuous",
+    "heroImage": "https://images.unsplash.com/photo-1596895111956-bf1cf0599ce5?q=80&w=1200&auto=format&fit=crop",
+    "priceStarting": "Complete Pilgrimage Management",
+    "highlights": [
+      "Holistic darshan of all four holy shrines in canonical order: Yamunotri, Gangotri, Kedarnath, and Badrinath",
+      "Holy dips in Surya Kund, Bhagirathi river, and Tapt Kund hot springs",
+      "Helicopter or pony/palanquin coordination for Kedarnath Dham",
+      "Explore Mana (the First Indian Village), Vyas Gufa, and Saraswati river",
+      "Official Char Dham biometric registration assistance and priority management"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Haridwar/Rishikesh to Barkot (215 km / 7 hrs)",
+        "description": "Drive past Mussoorie and Kempty Falls to Barkot on the banks of Yamuna. Rest and acclimatize."
+      },
+      {
+        "day": 2,
+        "title": "Barkot to Yamunotri Dham & Return (36 km drive + 6 km trek each way)",
+        "description": "Drive to Janki Chatti. Trek 6 km to Yamunotri Dham. Cook rice in Surya Kund and offer prayers to Goddess Yamuna. Return to Barkot."
+      },
+      {
+        "day": 3,
+        "title": "Barkot to Uttarkashi (100 km / 4 hrs)",
+        "description": "Drive to sacred Uttarkashi. Visit the ancient Kashi Vishwanath Temple with its massive brass trident (Shakti Trishul)."
+      },
+      {
+        "day": 4,
+        "title": "Uttarkashi to Gangotri Dham & Return via Harsil (100 km each way)",
+        "description": "Drive along the Bhagirathi river through beautiful Harsil valley. Perform puja at Maa Gangotri temple. Return to Uttarkashi."
+      },
+      {
+        "day": 5,
+        "title": "Uttarkashi to Guptkashi / Sitapur (220 km / 8 hrs)",
+        "description": "Traverse the scenic valleys of Tehri and Rudraprayag into the Mandakini valley."
+      },
+      {
+        "day": 6,
+        "title": "Guptkashi/Sonprayag to Kedarnath Dham",
+        "description": "Early departure to Gaurikund. Trek (or take helicopter from Phata/Sersi) to Kedarnath Dham. Attend the hypnotic evening Aarti."
+      },
+      {
+        "day": 7,
+        "title": "Kedarnath Darshan to Guptkashi/Pipalkoti",
+        "description": "Morning darshan inside the Jyotirlinga sanctum. Descend to Gaurikund and drive to hotel in Guptkashi or Pipalkoti."
+      },
+      {
+        "day": 8,
+        "title": "Pipalkoti/Guptkashi to Badrinath Dham (160 km / 5 hrs)",
+        "description": "Drive via Joshimath to Badrinath. Bathe in Tapt Kund, attend evening Maha Aarti of Lord Badri Vishal."
+      },
+      {
+        "day": 9,
+        "title": "Badrinath, Mana Village to Rudraprayag (165 km / 6 hrs)",
+        "description": "Morning visit to Mana village, Vyas Gufa, and Bhim Pul. Drive down the Alaknanda valley to Rudraprayag confluence."
+      },
+      {
+        "day": 10,
+        "title": "Rudraprayag to Rishikesh/Haridwar (160 km / 5 hrs)",
+        "description": "Drive past Devprayag (holy confluence of Bhagirathi and Alaknanda creating Ganga). Drop-off at Rishikesh or Haridwar."
+      }
+    ],
+    "inclusions": [
+      "9 nights hotel accommodations with hot water facilities",
+      "Pure vegetarian Sattvic meals (MAP plan: Breakfast and Dinner)",
+      "Dedicated hill vehicle with experienced mountain driver",
+      "Government registration assistance and yatra pass facilitation"
+    ],
+    "exclusions": [
+      "Helicopter tickets, pony, doli, or porter charges",
+      "VIP darshan tickets if opted locally",
+      "Personal medical and travel insurance"
+    ],
+    "importantNotes": "Early booking is essential for obtaining Char Dham biometric slots and helicopter passes.",
+    "faq": [
+      {
+        "question": "Can we customize this to Do Dham (Kedarnath + Badrinath)?",
+        "answer": "Yes! We operate dedicated 6-day Do Dham itineraries starting directly from Haridwar, Dehradun, or Delhi."
+      }
+    ]
+  },
+  {
+    "id": "darma-valley-panchachuli-base-7d",
+    "title": "Darma Valley & Panchachuli Base Camp Expedition (7D/6N)",
+    "slug": "darma-valley-panchachuli-base-7d",
+    "region": "Pithoragarh",
+    "district": "pithoragarh",
+    "tier": 1,
+    "duration": "7 Days / 6 Nights",
+    "durationDays": 7,
+    "theme": "Adventure & Wilderness Expedition",
+    "startingPoint": "Kathgodam",
+    "endingPoint": "Kathgodam",
+    "bestSeason": "May to June & September to October",
+    "altitudeMax": "4,260 m (Panchachuli East Base Camp)",
+    "difficulty": "Moderate to Strenuous",
+    "heroImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200&auto=format&fit=crop",
+    "priceStarting": "Curated Wilderness Expedition",
+    "highlights": [
+      "Trek to Panchachuli Base Camp (East face) across pristine moraines and glacial waterfalls",
+      "Immerse in the timeless stone-and-wood architecture of Dugtu and Dantu villages",
+      "Witness thundering cascades at Nagling and Baling waterfalls",
+      "Explore the untouched frontier valley of the Dhauli Ganga river",
+      "Inner Line Permit processing and 4x4 mountain overland support"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Kathgodam to Pithoragarh",
+        "description": "Scenic drive into Kumaon mountains. Overnight in Pithoragarh."
+      },
+      {
+        "day": 2,
+        "title": "Pithoragarh to Dharchula & Sobla",
+        "description": "Drive to Dharchula for permits, then enter the gorge of Dhauli Ganga towards Darma Valley. Night at Sobla or Dar."
+      },
+      {
+        "day": 3,
+        "title": "Sobla to Dantu / Dugtu Village",
+        "description": "Drive through the wild canyon passing Nagling and Baling waterfalls. Arrive at Dugtu (3,300m) situated right at the foot of Panchachuli."
+      },
+      {
+        "day": 4,
+        "title": "Trek to Panchachuli Base Camp",
+        "description": "A breathtaking 4-5 hour trek along the glacial stream to the base of Panchachuli East face. Behold massive ice walls and hanging glaciers. Return to Dugtu homestay."
+      },
+      {
+        "day": 5,
+        "title": "Explore Sipu and Marchha Villages",
+        "description": "Hike to the last villages of Darma Valley, observing traditional Rung wool spinning, alpine barley terraces, and mountain life."
+      },
+      {
+        "day": 6,
+        "title": "Darma Valley to Chaukori",
+        "description": "Descend by 4x4 and drive back to the tea gardens of Chaukori."
+      },
+      {
+        "day": 7,
+        "title": "Chaukori to Kathgodam",
+        "description": "Scenic drive down to Kathgodam railway station via Almora and Bhowali."
+      }
+    ],
+    "inclusions": [
+      "All accommodations in mountain lodges and authentic village homestays",
+      "All meals during the high valley segment",
+      "Inner line permit processing and certified local mountain guide",
+      "4x4 vehicle transportation for difficult terrain"
+    ],
+    "exclusions": [
+      "Personal trekking equipment and sleeping bags",
+      "Medical insurance and emergency evacuation"
+    ],
+    "importantNotes": "Requires an adventurous spirit and appreciation for authentic village hospitality without luxury expectations.",
+    "faq": []
+  },
+  {
+    "id": "chopta-tungnath-chandrashila-4d",
+    "title": "Chopta, Tungnath & Chandrashila Alpine Trek (4D/3N)",
+    "slug": "chopta-tungnath-chandrashila-4d",
+    "region": "Garhwal",
+    "district": "rudraprayag",
+    "tier": 3,
+    "duration": "4 Days / 3 Nights",
+    "durationDays": 4,
+    "theme": "Trekking & Himalayan Escapes",
+    "startingPoint": "Rishikesh / Haridwar",
+    "endingPoint": "Rishikesh / Haridwar",
+    "bestSeason": "April to November (Snow trekking in winter)",
+    "altitudeMax": "4,000 m (Chandrashila Peak)",
+    "difficulty": "Moderate",
+    "heroImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200&auto=format&fit=crop",
+    "priceStarting": "Eco-Trek & Camp Package",
+    "highlights": [
+      "Climb to Tungnath Mandir — the highest Lord Shiva temple in the world (3,680m)",
+      "Summit Chandrashila (4,000m) for a 360° panorama of Chaukhamba, Nanda Devi, and Trishul",
+      "Camp beside the crystal waters of Deoria Tal reflecting the snow-clad Chaukhamba peak",
+      "Walk through the lush bugyals (meadows) and scarlet rhododendron forests of Chopta",
+      "Ideal introduction to Himalayan high-altitude trekking for beginners and families"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Rishikesh to Sari Village & Deoria Tal Trek",
+        "description": "Drive alongside the Ganga and Mandakini rivers past Devprayag and Rudraprayag to Sari village. A gentle 2.5 km uphill trek leads to the magical Deoria Tal lake. Overnight in alpine tents under the stars."
+      },
+      {
+        "day": 2,
+        "title": "Deoria Tal to Chopta Meadows",
+        "description": "Wake up to Chaukhamba's golden reflection in the lake. Trek down to Sari and drive 20 km to Chopta meadows. Afternoon forest walk in the Kedarnath Wildlife Sanctuary looking for the Himalayan Monal."
+      },
+      {
+        "day": 3,
+        "title": "Summit Day: Chopta to Tungnath & Chandrashila",
+        "description": "Early morning 4:30 AM start. Climb the paved cobblestone switchbacks to the ancient stone shrine of Tungnath (3.5 km). Continue up the ridge for 1.5 km to Chandrashila summit (4,000m). Witness one of India's grandest sunrise panoramas. Descend to Chopta."
+      },
+      {
+        "day": 4,
+        "title": "Chopta to Rishikesh via Devprayag",
+        "description": "Drive back via Omkareshwar temple in Ukhimath and Devprayag sangam. Arrive in Rishikesh by evening."
+      }
+    ],
+    "inclusions": [
+      "3 nights accommodation in alpine luxury tents/cottages",
+      "All meals (Breakfast, Packed Lunch, Dinner, Evening tea)",
+      "Certified wilderness trek leader and forest entry permits",
+      "Private transport from Rishikesh and return"
+    ],
+    "exclusions": [
+      "Trekking poles and personal winter wear",
+      "Pony charges for Tungnath if hired"
+    ],
+    "importantNotes": "Tungnath is accessible to all reasonably fit walkers. Ponies are available for children and seniors up to the temple.",
+    "faq": []
+  },
+  {
+    "id": "almora-jageshwar-binsar-5d",
+    "title": "Kumaon Cultural Heritage: Almora, Jageshwar & Binsar (5D/4N)",
+    "slug": "almora-jageshwar-binsar-5d",
+    "region": "Kumaon",
+    "district": "almora",
+    "tier": 2,
+    "duration": "5 Days / 4 Nights",
+    "durationDays": 5,
+    "theme": "Culture, Heritage & Sanctuaries",
+    "startingPoint": "Kathgodam",
+    "endingPoint": "Kathgodam",
+    "bestSeason": "All year round (Autumn/Winter for clear mountain views)",
+    "altitudeMax": "2,420 m (Binsar Zero Point)",
+    "difficulty": "Easy",
+    "heroImage": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=1200&auto=format&fit=crop",
+    "priceStarting": "Heritage & Culture Journey",
+    "highlights": [
+      "Discover the 124 ancient Nagara-style stone temples of Jageshwar Dham in cedar forests",
+      "Experience the geomagnetic sanctuary of Kasar Devi and Crank's Ridge",
+      "300 km uninterrupted Himalayan snowline view from Binsar Zero Point",
+      "Visit the 9th-century Katarmal Sun Temple and Chitai Golu Devta Temple",
+      "Walk through Almora's 200-year-old stone bazaar and sample Bal Mithai"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Kathgodam to Almora & Kasar Devi",
+        "description": "Pickup from Kathgodam and drive up to Kasar Devi ridge. Visit the 2nd-century Kasar Devi temple where Swami Vivekananda meditated. Sunset over the western valleys."
+      },
+      {
+        "day": 2,
+        "title": "Jageshwar Dham Full Day Excursion",
+        "description": "Drive through tall deodar woods to Jageshwar Dham. Spend the day exploring the Maha Mrityunjaya temple, Dandeshwar temple, and the ASI archaeological museum. Return via Chitai Golu Devta."
+      },
+      {
+        "day": 3,
+        "title": "Binsar Wildlife Sanctuary & Zero Point",
+        "description": "Drive into Binsar Sanctuary. Take a leisurely 2 km forest walk to Zero Point for vistas spanning Kedarnath, Chaukhamba, Trishul, and Nanda Devi. Birdwatching in the afternoon."
+      },
+      {
+        "day": 4,
+        "title": "Katarmal Sun Temple & Ranikhet Meadows",
+        "description": "Visit the 9th-century Katarmal Sun Temple, the second most important sun shrine after Konark. Continue to colonial Ranikhet to see Chaubatia apple orchards and Golf Grounds."
+      },
+      {
+        "day": 5,
+        "title": "Kainchi Dham & Return to Kathgodam",
+        "description": "Drive via Neem Karoli Baba Ashram at Kainchi Dham for darshan. Arrive at Kathgodam railway station for evening trains."
+      }
+    ],
+    "inclusions": [
+      "4 nights boutique heritage resort stay",
+      "Breakfast and dinner daily",
+      "Private AC transport with knowledgeable driver-guide",
+      "Binsar sanctuary vehicle and forest entry fees"
+    ],
+    "exclusions": [
+      "Personal temple offerings",
+      "Camera fees inside ASI museum"
+    ],
+    "importantNotes": "A gentle, deeply enriching journey suitable for discerning cultural travellers, artists, and families.",
+    "faq": []
+  },
+  {
+    "id": "valley-of-flowers-hemkund-6d",
+    "title": "Valley of Flowers & Hemkund Sahib Alpine Yatra (6D/5N)",
+    "slug": "valley-of-flowers-hemkund-6d",
+    "region": "Garhwal",
+    "district": "chamoli",
+    "tier": 3,
+    "duration": "6 Days / 5 Nights",
+    "durationDays": 6,
+    "theme": "UNESCO Alpine Trek & Sacred Lake",
+    "startingPoint": "Rishikesh / Haridwar",
+    "endingPoint": "Rishikesh / Haridwar",
+    "bestSeason": "July to September (Peak bloom: late July & August)",
+    "altitudeMax": "4,329 m (Hemkund Sahib)",
+    "difficulty": "Moderate",
+    "heroImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200&auto=format&fit=crop",
+    "priceStarting": "Curated Monsoon Alpine Trek",
+    "highlights": [
+      "Walk through the UNESCO World Heritage Valley of Flowers adorned with 500+ alpine wildflower species",
+      "Pay homage at Sri Hemkund Sahib Gurudwara and Laxman Mandir beside the pristine glacial tarn",
+      "Admire the rare Blue Poppy, Himalayan Bellflower, and Brahmakamal in their natural habitat",
+      "Trek alongside the roaring Pushpawati river amidst misty Himalayan cascades",
+      "Dedicated local mountain guides and eco-friendly certified trail operations"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Rishikesh to Govindghat / Joshimath (290 km / 9 hrs)",
+        "description": "Scenic drive along the Alaknanda river passing Devprayag, Rudraprayag, and Karnaprayag to Govindghat. Overnight stay in hotel."
+      },
+      {
+        "day": 2,
+        "title": "Govindghat to Pulna & Trek to Ghangaria (10 km trek)",
+        "description": "Short 4 km drive to Pulna. Begin gradual scenic trek along Lakshman Ganga to base camp Ghangaria (3,050m) flanked by deodars and birch trees."
+      },
+      {
+        "day": 3,
+        "title": "Ghangaria to Valley of Flowers & Return (3.5 km each way)",
+        "description": "Enter the National Park gate. Trek into the vibrant carpeted meadows of the Valley of Flowers. Spend 4-5 magical hours exploring floral paths and Pushpawati river banks. Return to Ghangaria."
+      },
+      {
+        "day": 4,
+        "title": "Ghangaria to Sri Hemkund Sahib & Return (6 km steep ascent)",
+        "description": "Early climb to Hemkund Sahib (4,329m). Holy dip in the icy glacial lake, prayers in the highest Gurudwara, and savor hot khichdi and tea in the Langar hall. Descend back to Ghangaria."
+      },
+      {
+        "day": 5,
+        "title": "Ghangaria to Pulna & Drive to Pipalkoti/Rudraprayag",
+        "description": "Trek down to Pulna and Govindghat. Drive down to Pipalkoti or Rudraprayag for relaxing overnight stay."
+      },
+      {
+        "day": 6,
+        "title": "Drive back to Rishikesh / Haridwar",
+        "description": "Morning drive to Rishikesh. Conclude your tour with sacred Ganga memories."
+      }
+    ],
+    "inclusions": [
+      "5 nights accommodation in comfortable hotels and Ghangaria lodges",
+      "Pure vegetarian meals throughout the itinerary",
+      "Forest department entry permits for Valley of Flowers National Park",
+      "Certified local trek guide and private vehicle transport"
+    ],
+    "exclusions": [
+      "Pony / Helicopter charges between Govindghat and Ghangaria",
+      "Personal rain gear, trekking poles, and porter tips",
+      "GST (5%)"
+    ],
+    "importantNotes": "Good waterproof trekking boots, poncho/raincoat, and basic physical endurance are recommended.",
+    "faq": []
+  },
+  {
+    "id": "panch-prayag-sacred-confluences-5d",
+    "title": "Sacred Panch Prayag Pilgrimage & Confluences (5D/4N)",
+    "slug": "panch-prayag-sacred-confluences-5d",
+    "region": "Garhwal",
+    "district": "chamoli",
+    "tier": 3,
+    "duration": "5 Days / 4 Nights",
+    "durationDays": 5,
+    "theme": "Sacred River Heritage & Confluences",
+    "startingPoint": "Haridwar / Rishikesh",
+    "endingPoint": "Haridwar / Rishikesh",
+    "bestSeason": "September to June",
+    "altitudeMax": "1,875 m (Joshimath)",
+    "difficulty": "Easy",
+    "heroImage": "https://images.unsplash.com/photo-1561361058-c24cecae35ca?q=80&w=1200&auto=format&fit=crop",
+    "priceStarting": "Sacred Devbhoomi Circuit",
+    "highlights": [
+      "Visit all five sacred river confluences (Panch Prayag) where holy tributaries merge into Mother Ganga",
+      "Vishnuprayag (Alaknanda & Dhauliganga), Nandaprayag (Alaknanda & Mandakini), Karnaprayag (Alaknanda & Pindar)",
+      "Rudraprayag (Alaknanda & Mandakini) and Devprayag (Bhagirathi & Alaknanda where Ganga is officially formed)",
+      "Darshan at ancient Raghunathji Temple Devprayag and Uma Devi Temple Karnaprayag",
+      "Immerse in Vedic hymns, evening Aarti at river sangams, and peaceful spiritual pace"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Rishikesh to Devprayag & Rudraprayag (140 km)",
+        "description": "Drive to Devprayag to witness the majestic visual contrast of turbulent Bhagirathi and turquoise Alaknanda meeting to form the Ganga. Visit Raghunathji Temple. Proceed to Rudraprayag for night stay and evening sangam Aarti."
+      },
+      {
+        "day": 2,
+        "title": "Rudraprayag to Karnaprayag & Nandaprayag to Joshimath (130 km)",
+        "description": "Visit Karnaprayag (confluence with Pindar river and Karna's meditation rock) and Nandaprayag (confluence with Nandakini). Continue along Alaknanda to Joshimath."
+      },
+      {
+        "day": 3,
+        "title": "Vishnuprayag Confluence & Joshimath Math Exploration",
+        "description": "Visit Vishnuprayag, where the churning Dhauliganga cascades into the Alaknanda. Visit Adi Shankaracharya's Jyotirmath and ancient Narsingh temple. Afternoon excursion to Auli by cable car."
+      },
+      {
+        "day": 4,
+        "title": "Joshimath to Srinagar / Kirtinagar (145 km)",
+        "description": "Descend back through the valleys, stopping at quiet riverside ghats for meditation and reflection. Overnight in Srinagar Garhwal."
+      },
+      {
+        "day": 5,
+        "title": "Srinagar to Rishikesh & Haridwar (105 km)",
+        "description": "Drive down past Vashistha Gufa (ancient cave where Sage Vashistha meditated on the Ganga). Conclude tour at Rishikesh or Haridwar."
+      }
+    ],
+    "inclusions": [
+      "4 nights hotel accommodation with breakfast and dinner",
+      "Chauffeur-driven private sanitized cab for the circuit",
+      "Sangam priest guidance for pooja and rituals",
+      "Tolls, parking, and driver allowances"
+    ],
+    "exclusions": [
+      "Special personal ritual dakshina / puja costs",
+      "Cable car tickets at Auli",
+      "GST (5%)"
+    ],
+    "importantNotes": "A deeply serene pilgrimage ideal for spiritual seekers, elders, and heritage enthusiasts.",
+    "faq": []
+  }
+]

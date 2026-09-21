@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CMS Management Portal | Sadhya Devbhoomi Tours</title>
+  <meta name="robots" content="noindex, nofollow">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-slate-100 text-slate-900" id="cms-admin-root">
+
+  <!-- Admin Top Bar -->
+  <header class="bg-slate-900 text-stone-100 px-6 py-4 flex flex-wrap justify-between items-center border-b border-amber-500/30 gap-4">
+    <div class="flex items-center gap-3">
+      <div class="w-9 h-9 rounded-full bg-amber-700 text-white font-serif font-bold flex items-center justify-center">सा</div>
+      <div>
+        <h1 class="font-serif text-lg font-bold text-white">Sadhya Devbhoomi Tours — CMS Admin Portal</h1>
+        <span class="text-xs text-stone-400">Content Management, Tour Catalog & Customer Inquiries</span>
+      </div>
+    </div>
+    <div class="flex items-center gap-3">
+      <button onclick="CMSAdmin.exportDataJson()" class="bg-slate-800 hover:bg-slate-700 text-white text-xs px-3.5 py-2 rounded-lg border border-stone-700">
+        Export Data (JSON)
+      </button>
+      <a href="index.html" class="btn-primary text-xs py-2 px-4">
+        View Live Website →
+      </a>
+    </div>
+  </header>
+
+  <!-- CMS Tabs -->
+  <div class="bg-white border-b border-stone-200 px-6">
+    <div class="flex space-x-2 overflow-x-auto text-xs font-semibold py-2">
+      <button data-cms-tab="inquiries" class="bg-amber-800 text-white px-4 py-2 rounded-lg transition-colors">
+        Customer Inquiries
+      </button>
+      <button data-cms-tab="tours" class="text-slate-600 hover:bg-slate-100 px-4 py-2 rounded-lg transition-colors">
+        Tours & Itineraries
+      </button>
+      <button data-cms-tab="destinations" class="text-slate-600 hover:bg-slate-100 px-4 py-2 rounded-lg transition-colors">
+        Destinations (50+)
+      </button>
+      <button data-cms-tab="alerts" class="text-slate-600 hover:bg-slate-100 px-4 py-2 rounded-lg transition-colors">
+        Travel Advisories & Alerts
+      </button>
+      <button data-cms-tab="settings" class="text-slate-600 hover:bg-slate-100 px-4 py-2 rounded-lg transition-colors">
+        Brand & Contact Settings
+      </button>
+    </div>
+  </div>
+
+  <main class="max-w-7xl mx-auto p-6 space-y-8">
+    
+    <!-- Tab 1: Customer Inquiries -->
+    <div id="panel-inquiries" class="cms-panel space-y-4">
+      <div class="flex justify-between items-center">
+        <div>
+          <h2 class="text-xl font-serif font-bold text-slate-900">Custom Trip Inquiries & Bookings</h2>
+          <p class="text-xs text-slate-500">Live inquiries submitted via Custom Trip Builder and Tour Pages.</p>
+        </div>
+        <button onclick="CMSAdmin.renderInquiries()" class="text-xs bg-white border border-stone-300 px-3 py-1.5 rounded hover:bg-slate-50 font-medium">
+          Refresh Inquiries
+        </button>
+      </div>
+
+      <div class="bg-white rounded-2xl border border-stone-200 shadow-sm overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse">
+            <thead class="bg-slate-50 text-[11px] uppercase tracking-wider text-slate-500 border-b border-stone-200">
+              <tr>
+                <th class="py-3 px-4">Date</th>
+                <th class="py-3 px-4">Traveller</th>
+                <th class="py-3 px-4">Contact</th>
+                <th class="py-3 px-4">Trip Style / Group</th>
+                <th class="py-3 px-4">Destinations</th>
+                <th class="py-3 px-4">Action</th>
+              </tr>
+            </thead>
+            <tbody id="inquiries-table-body">
+              <!-- Injected dynamically via CMSAdmin.renderInquiries -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 2: Tours Management -->
+    <div id="panel-tours" class="cms-panel hidden space-y-4">
+      <div class="flex justify-between items-center">
+        <div>
+          <h2 class="text-xl font-serif font-bold text-slate-900">Tours & Itineraries Catalog</h2>
+          <p class="text-xs text-slate-500">Manage tour products, pricing guidance, and day-wise itineraries.</p>
+        </div>
+      </div>
+      <div id="tours-cms-list" class="space-y-3">
+        <!-- Injected via CMSAdmin.renderToursList -->
+      </div>
+    </div>
+
+    <!-- Tab 3: Destinations Management -->
+    <div id="panel-destinations" class="cms-panel hidden space-y-4">
+      <div>
+        <h2 class="text-xl font-serif font-bold text-slate-900">Verified Destinations Directory</h2>
+        <p class="text-xs text-slate-500">Official tourism records across Nainital, Pithoragarh, Kumaon, and Garhwal.</p>
+      </div>
+      <div id="destinations-cms-list" class="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <!-- Injected via CMSAdmin.renderDestinationsList -->
+      </div>
+    </div>
+
+    <!-- Tab 4: Travel Advisories -->
+    <div id="panel-alerts" class="cms-panel hidden space-y-4">
+      <div>
+        <h2 class="text-xl font-serif font-bold text-slate-900">Active Travel Advisories & Seasonal Weather</h2>
+        <p class="text-xs text-slate-500">Real-time alerts for Char Dham biometric passes, Adi Kailash border permits, and mountain roads.</p>
+      </div>
+      <div id="travel-alerts-container" class="space-y-3"></div>
+    </div>
+
+    <!-- Tab 5: Settings -->
+    <div id="panel-settings" class="cms-panel hidden space-y-4">
+      <div class="bg-white p-6 rounded-2xl border border-stone-200 shadow-sm space-y-4 max-w-2xl">
+        <h2 class="text-xl font-serif font-bold text-slate-900">Brand & Core Contacts Configuration</h2>
+        <div class="space-y-2 text-xs text-slate-700">
+          <p><strong>Primary Brand Name:</strong> Sadhya Devbhoomi Tours (साध्य देवभूमि टूर्स)</p>
+          <p><strong>Tagline:</strong> "Journeys Through the Sacred Himalayas"</p>
+          <p><strong>Support Tagline:</strong> "Explore Uttarakhand — Sacred Journeys, Himalayan Landscapes & Authentic Experiences"</p>
+          <p><strong>Direct Phone:</strong> +91 97568 05476</p>
+          <p><strong>Direct Email:</strong> info@sadhyawellness.com</p>
+          <p><strong>Registered Address:</strong> 143 Subhash Nagar, Sila Road, CIMAP Gate Bindukhatta, Lalkuan, Nainital, Uttarakhand 262402</p>
+          <p><strong>Parent Brand:</strong> Sadhya Wellness (https://sadhyawellness.com)</p>
+          <p><strong>Bengaluru Classes:</strong> https://bengaluru.sadhyawellness.com</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Reusable Detail Modal -->
+  <div id="detail-modal" class="modal-overlay">
+    <div class="modal-container p-6 sm:p-8">
+      <div class="flex justify-between items-center border-b border-stone-200 pb-4 mb-6">
+        <h3 id="modal-title" class="font-serif text-2xl font-bold text-slate-900">Details</h3>
+        <button id="modal-close-btn" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center font-bold text-lg">✕</button>
+      </div>
+      <div id="modal-body-content"></div>
+    </div>
+  </div>
+
+  <script src="assets/js/data-loader.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/cms-admin.js"></script>
+</body>
+</html>

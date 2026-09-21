@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plan Your Devbhoomi Journey | Custom Itinerary Builder | Sadhya Devbhoomi Tours</title>
+  <meta name="description" content="Custom trip builder for Uttarakhand: craft private tours across Nainital, Pithoragarh, Char Dham, and Kumaon with personalized accommodations, 4x4 vehicles, and guided pilgrimages.">
+  <link rel="canonical" href="https://tour.sadhyawellness.com/custom-trip.html">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-stone-50 text-slate-900">
+
+  <!-- Header -->
+  <header class="glass-header text-stone-100 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-amber-700 to-amber-500 flex items-center justify-center font-serif font-bold text-white text-lg">सा</div>
+        <div>
+          <span class="font-hindi text-amber-200 text-sm block">साध्य देवभूमि टूर्स</span>
+          <span class="font-brand text-xs text-white block">Sadhya Devbhoomi Tours</span>
+        </div>
+      </a>
+      <nav class="hidden lg:flex items-center space-x-6 text-sm font-medium">
+        <a href="index.html" class="text-stone-300 hover:text-amber-300">Home</a>
+        <a href="destinations.html" class="text-stone-300 hover:text-amber-300">Destinations</a>
+        <a href="tours.html" class="text-stone-300 hover:text-amber-300">Tours</a>
+        <a href="nainital.html" class="text-stone-300 hover:text-amber-300">Nainital</a>
+        <a href="pithoragarh.html" class="text-stone-300 hover:text-amber-300">Pithoragarh</a>
+        <a href="char-dham.html" class="text-stone-300 hover:text-amber-300">Char Dham</a>
+        <a href="custom-trip.html" class="text-amber-400 font-semibold">Custom Trip</a>
+        <a href="contact.html" class="text-stone-300 hover:text-amber-300">Contact</a>
+      </nav>
+      <a href="tel:+919756805476" class="btn-secondary bg-stone-800 text-white text-xs py-2 px-4 hidden sm:inline-flex">📞 Call Specialist</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="bg-slate-950 text-stone-100 py-16 px-4 text-center">
+    <div class="max-w-3xl mx-auto space-y-3">
+      <span class="text-xs font-bold uppercase tracking-widest text-amber-400 font-mono">Bespoke Travel Concierge</span>
+      <h1 class="text-4xl sm:text-6xl font-serif font-bold text-white">Plan Your Devbhoomi Journey</h1>
+      <p class="text-stone-300 text-sm sm:text-base max-w-xl mx-auto">
+        Share your vision of the Himalayas. Our local travel coordinators will create an unhurried, tailor-made itinerary and quotation.
+      </p>
+    </div>
+  </div>
+
+  <!-- Form Section -->
+  <main class="py-16 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="bg-white rounded-3xl border border-stone-200 shadow-xl p-8 sm:p-12">
+      
+      <form id="custom-trip-form" class="space-y-8">
+        
+        <!-- Section A: Primary Contact -->
+        <div>
+          <h3 class="text-xs font-bold uppercase tracking-widest text-amber-800 border-b border-stone-200 pb-2 mb-4">
+            1. Your Contact Details
+          </h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Full Name *</label>
+              <input type="text" name="full-name" required placeholder="e.g. Ramesh Chandra" class="w-full text-sm p-3 rounded-xl border border-stone-300 outline-none focus:ring-2 focus:ring-amber-500">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Phone / WhatsApp *</label>
+              <input type="tel" name="phone-number" required placeholder="+91 98765 43210" class="w-full text-sm p-3 rounded-xl border border-stone-300 outline-none focus:ring-2 focus:ring-amber-500">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Email Address</label>
+              <input type="email" name="email-address" placeholder="you@email.com" class="w-full text-sm p-3 rounded-xl border border-stone-300 outline-none focus:ring-2 focus:ring-amber-500">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Country / City</label>
+              <input type="text" name="country" placeholder="India / USA / UK" class="w-full text-sm p-3 rounded-xl border border-stone-300 outline-none focus:ring-2 focus:ring-amber-500">
+            </div>
+          </div>
+        </div>
+
+        <!-- Section B: Travel Dates & Travelers -->
+        <div>
+          <h3 class="text-xs font-bold uppercase tracking-widest text-amber-800 border-b border-stone-200 pb-2 mb-4">
+            2. Travel Schedule & Group Size
+          </h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Tentative Start Date</label>
+              <input type="date" name="travel-date" class="w-full text-sm p-3 rounded-xl border border-stone-300 outline-none bg-white">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Trip Duration</label>
+              <select name="trip-duration" class="w-full text-sm p-3 rounded-xl border border-stone-300 outline-none bg-white">
+                <option value="1 Day">1 Day Tour</option>
+                <option value="2-3 Days">2–3 Days</option>
+                <option value="4-5 Days">4–5 Days</option>
+                <option value="6-7 Days" selected>6–7 Days</option>
+                <option value="8-10 Days">8–10 Days</option>
+                <option value="10+ Days">10+ Days (Extended)</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Adults (12+ yrs)</label>
+              <input type="number" name="adults" min="1" value="2" class="w-full text-sm p-3 rounded-xl border border-stone-300 outline-none">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Children (Under 12)</label>
+              <input type="number" name="children" min="0" value="0" class="w-full text-sm p-3 rounded-xl border border-stone-300 outline-none">
+            </div>
+          </div>
+        </div>
+
+        <!-- Section C: Route & Preferred Region -->
+        <div>
+          <h3 class="text-xs font-bold uppercase tracking-widest text-amber-800 border-b border-stone-200 pb-2 mb-4">
+            3. Route, Regions & Style
+          </h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Starting City</label>
+              <input type="text" name="starting-city" placeholder="e.g. Kathgodam / Delhi / Dehradun" class="w-full text-sm p-3 rounded-xl border border-stone-300 outline-none">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Ending City</label>
+              <input type="text" name="ending-city" placeholder="e.g. Kathgodam / Delhi" class="w-full text-sm p-3 rounded-xl border border-stone-300 outline-none">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Preferred District</label>
+              <select name="preferred-district" class="w-full text-sm p-3 rounded-xl border border-stone-300 outline-none bg-white">
+                <option value="Nainital District (Flagship)">Nainital District (Flagship)</option>
+                <option value="Pithoragarh District (Flagship)">Pithoragarh District (Flagship)</option>
+                <option value="Char Dham Circuit">Char Dham Circuit (Garhwal)</option>
+                <option value="Kumaon (Almora, Bageshwar, Champawat)">Kumaon (Almora, Bageshwar, Champawat)</option>
+                <option value="Garhwal (Chamoli, Rudraprayag, Uttarkashi)">Garhwal (Chamoli, Rudraprayag, Uttarkashi)</option>
+                <option value="Custom Combination">Custom State-Wide Combination</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Trip Style</label>
+              <select name="trip-type" id="trip-type" class="w-full text-sm p-3 rounded-xl border border-stone-300 outline-none bg-white">
+                <option value="Spiritual Pilgrimage">Spiritual Pilgrimage (Temples & Ashrams)</option>
+                <option value="Himalayan Escape">Himalayan Escape (Views & Slow Living)</option>
+                <option value="Family Holiday">Family Holiday</option>
+                <option value="Couple Trip">Couple / Honeymoon</option>
+                <option value="Adventure & Trekking">Adventure & Trekking</option>
+                <option value="Wildlife Safari">Wildlife Safari</option>
+                <option value="Day Tour">Day Tour / Weekend</option>
+              </select>
+            </div>
+            <div class="sm:col-span-2">
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Specific Destinations on Your Wishlist</label>
+              <input type="text" name="preferred-destinations" id="preferred-destinations" placeholder="e.g. Kainchi Dham, Mukteshwar, Munsiyari, Jageshwar" class="w-full text-sm p-3 rounded-xl border border-stone-300 outline-none">
+            </div>
+          </div>
+        </div>
+
+        <!-- Section D: Comfort & Preferences -->
+        <div>
+          <h3 class="text-xs font-bold uppercase tracking-widest text-amber-800 border-b border-stone-200 pb-2 mb-4">
+            4. Preferences & Accommodation
+          </h3>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Budget Preference</label>
+              <select name="budget-preference" class="w-full text-sm p-3 rounded-xl border border-stone-300 outline-none bg-white">
+                <option value="Quality First / Flexible">Quality First / Flexible</option>
+                <option value="Standard Value Package">Standard Value Package</option>
+                <option value="Luxury Boutique Journey">Luxury Boutique Journey</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Accommodation Tier</label>
+              <select name="accommodation-tier" class="w-full text-sm p-3 rounded-xl border border-stone-300 outline-none bg-white">
+                <option value="Boutique Luxury & Heritage">Boutique Luxury & Heritage</option>
+                <option value="Comfort 4-Star Premium" selected>Comfort 4-Star Premium</option>
+                <option value="Scenic Homestay & Glamping">Scenic Homestay & Glamping</option>
+                <option value="Clean Standard Budget">Clean Standard Budget</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Vehicle Preference</label>
+              <select name="transport-mode" class="w-full text-sm p-3 rounded-xl border border-stone-300 outline-none bg-white">
+                <option value="Toyota Innova / Crysta" selected>Toyota Innova / Crysta</option>
+                <option value="4x4 Mountain SUV (Bolero/Scorpio)">4x4 Mountain SUV (High Clearance)</option>
+                <option value="Private AC Sedan">Private AC Sedan (Dezire/Etios)</option>
+                <option value="Tempo Traveller (12-16 Seater)">Tempo Traveller (12–16 Seater)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Special Requirements</label>
+              <input type="text" name="special-requirements" placeholder="e.g. Senior citizen accessible, pure vegetarian meals" class="w-full text-sm p-3 rounded-xl border border-stone-300 outline-none">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Additional Message / Question</label>
+              <input type="text" name="additional-message" placeholder="Any specific wishes or expectations..." class="w-full text-sm p-3 rounded-xl border border-stone-300 outline-none">
+            </div>
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="text-center pt-4">
+          <button type="submit" class="btn-primary w-full sm:w-auto text-base py-4 px-12 font-bold shadow-xl">
+            <span>CREATE MY ITINERARY</span>
+            <span>→</span>
+          </button>
+        </div>
+
+      </form>
+
+      <div id="inquiry-result-box" class="mt-8"></div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-slate-950 text-stone-400 text-xs py-12 border-t border-slate-800 text-center">
+    <div class="max-w-4xl mx-auto px-4 space-y-2">
+      <p class="font-hindi text-amber-200 text-sm">साध्य देवभूमि टूर्स • Sadhya Devbhoomi Tours</p>
+      <p>143 Subhash Nagar, Sila Road, CIMAP Gate Bindukhatta, Lalkuan, Nainital, Uttarakhand 262402</p>
+      <p>Direct Calls: <a href="tel:+919756805476" class="text-amber-300">+91 97568 05476</a> • Email: <a href="mailto:info@sadhyawellness.com" class="text-amber-300">info@sadhyawellness.com</a></p>
+    </div>
+  </footer>
+
+  <!-- Sticky Mobile Bar -->
+  <div class="sticky-mobile-bar">
+    <a href="tel:+919756805476" class="flex-1 text-center py-2 text-stone-200 flex flex-col items-center">
+      <span class="text-lg">📞</span><span class="text-[11px] font-bold">CALL</span>
+    </a>
+    <button onclick="App.openWhatsApp()" class="flex-1 text-center py-2 text-emerald-400 flex flex-col items-center">
+      <span class="text-lg">💬</span><span class="text-[11px] font-bold">WHATSAPP</span>
+    </button>
+    <a href="custom-trip.html" class="flex-1 text-center py-2 text-amber-300 flex flex-col items-center">
+      <span class="text-lg">🧭</span><span class="text-[11px] font-bold">PLAN TRIP</span>
+    </a>
+  </div>
+
+  <script src="assets/js/data-loader.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/trip-builder.js"></script>
+</body>
+</html>
