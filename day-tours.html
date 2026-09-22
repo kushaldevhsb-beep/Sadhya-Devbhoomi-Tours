@@ -51,8 +51,12 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       
       <!-- Day Tour 1 -->
-      <div class="bg-white rounded-2xl p-6 border border-stone-200 shadow-sm flex flex-col justify-between">
-        <div class="space-y-3">
+      <div class="bg-white rounded-2xl overflow-hidden border border-stone-200 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+        <div class="h-48 overflow-hidden relative">
+          <img src="assets/images/kainchi-dham.jpg" alt="Kainchi Dham Ashram" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+          <span class="absolute top-3 left-3 bg-amber-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider shadow">Neem Karoli Baba Ashram</span>
+        </div>
+        <div class="p-6 space-y-3">
           <span class="text-xs font-bold uppercase text-amber-700">Flagship Day Pilgrimage</span>
           <h3 class="font-serif text-2xl font-bold text-slate-900">Kainchi Dham & Golu Devta Day Tour</h3>
           <p class="text-xs text-slate-600 leading-relaxed">
@@ -62,7 +66,7 @@
             <span>Duration: 8 Hours • Pickup: Kathgodam/Nainital</span>
           </div>
         </div>
-        <div class="pt-6 flex gap-2">
+        <div class="p-6 pt-0 flex gap-2">
           <button onclick="App.showTourDetail('kainchi-dham-day-tour')" class="btn-secondary bg-slate-100 text-slate-900 text-xs py-2 px-4 flex-1 text-center justify-center">Itinerary</button>
           <button onclick="App.openTourWhatsApp('Kainchi Dham & Golu Devta Day Tour')" class="btn-whatsapp text-xs py-2 px-4 flex-1 text-center justify-center">Inquire</button>
         </div>
